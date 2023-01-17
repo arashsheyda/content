@@ -555,7 +555,7 @@
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@iconify/vue@^4.0.1":
+"@iconify/vue@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-4.0.2.tgz#1df557cc82a454cb2d1eb69ded1fb48b6363ef87"
   integrity sha512-LRp+mYh8N0bcX4lustHtI5o1aEoio9HN3/19uIzVOvI78qopKBjzsDK5hkEZYDSc6+LKG8hfLxTxpW8CejXGZg==
@@ -658,17 +658,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt-themes/docus@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/docus/-/docus-1.4.5.tgz#a9d0bcb59c3370b22a8dd3c83ae8a4c88b140706"
-  integrity sha512-qievU7VeETu6CvwYQ7wDRLbNblNugghGesWKz/NXWhtxjxShJlUr1cp6SOtK0/RRMRX5HYE/hDKSz6yqMcR6Ew==
+"@nuxt-themes/docus@^1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/docus/-/docus-1.4.6.tgz#e364a7932cd643a82210f267420a3cd27e149bdf"
+  integrity sha512-OmT/gOOohWg59efd0X2WS6DZwfR3HF7VYdd8oMoQCxwN23V8kf7CANItiNoJHAYn8DUs6m0rFLIGg/mNqpgQOA==
   dependencies:
     "@nuxt-themes/elements" "^0.4.4"
     "@nuxt-themes/tokens" "^1.5.3"
-    "@nuxt-themes/typography" "^0.4.0"
+    "@nuxt-themes/typography" "^0.4.1"
     "@nuxt/content" "^2.3.0"
-    "@nuxthq/studio" "^0.5.0"
-    "@vueuse/nuxt" "^9.10.0"
+    "@nuxthq/studio" "^0.5.5"
+    "@vueuse/nuxt" "^9.11.0"
 
 "@nuxt-themes/elements@^0.4.4":
   version "0.4.4"
@@ -678,7 +678,7 @@
     "@nuxt-themes/tokens" "^1.5.3"
     "@vueuse/core" "^9.10.0"
 
-"@nuxt-themes/tokens@^1.5.2", "@nuxt-themes/tokens@^1.5.3":
+"@nuxt-themes/tokens@^1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@nuxt-themes/tokens/-/tokens-1.5.3.tgz#303ac9ed1affe1d332fd1fd04ede7f3c656af436"
   integrity sha512-o0Juq5qhfnWZHCRgKi/rEtx+xqp0MC8tKYhYncISNRFoDCNCOagb65sxsY128OpUJdQOJw0JR3RgYnVGedHyKQ==
@@ -687,15 +687,15 @@
     "@vueuse/core" "^9.10.0"
     pinceau "^0.10.7"
 
-"@nuxt-themes/typography@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.4.0.tgz#c8bc40f478d7a3ed6948853a145de88e5f9dd55e"
-  integrity sha512-qcRw2q5Z2fAIfOoXgG6tK7QSicSzuWK3EbKzWi6mU8kOeEuAeaUU7gF6/dpuurEqCrV1jnsjvkFGK8yA9sBk1g==
+"@nuxt-themes/typography@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.4.1.tgz#013838c365fe70a1c1942a37dfc37bdef6eb1d97"
+  integrity sha512-lTdTMz3fRJcnSU78ErmE8NydYHBoYayPJvwSOMjY0jFmVrk5fbsOVZ12FW5oalYsPoOCXEcCJ+BD21O+MSCX3w==
   dependencies:
-    "@nuxt-themes/tokens" "^1.5.2"
+    "@nuxt-themes/tokens" "^1.5.3"
     "@nuxtjs/color-mode" "^3.2.0"
-    nuxt-config-schema "^0.4.0"
-    nuxt-icon "^0.1.8"
+    nuxt-config-schema "^0.4.2"
+    nuxt-icon "^0.2.5"
 
 "@nuxt/content@^2.3.0":
   version "2.3.0"
@@ -856,7 +856,7 @@
     vite-plugin-checker "^0.5.1"
     vue-bundle-renderer "^1.0.0"
 
-"@nuxthq/studio@^0.5.0", "@nuxthq/studio@^0.5.5":
+"@nuxthq/studio@^0.5.5":
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/@nuxthq/studio/-/studio-0.5.5.tgz#6491a1ac19b07dc132fc4465791aff10620d4388"
   integrity sha512-C6ZR6U/XDm/7z708OhY6fObD2o3AbpTzMTiQRZeiTnK2T5A+ZNXrU0RTFeOrjo6Wv0BNNGtqOHVPlzV7T6Vcrw==
@@ -1362,7 +1362,17 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
 
-"@vueuse/core@9.10.0", "@vueuse/core@^9.10.0":
+"@vueuse/core@9.11.0":
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.11.0.tgz#4871e795567c142353c4ec62694c02bf7583e3bc"
+  integrity sha512-7yZJ8LNOssA8ZmeSjd4F+wbFBA4csiP4TiaXgruqg1H4PAtzSkv93PPwFLvQkSnfo3Bar+e+6QoRvWjhz7l2Xg==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.16"
+    "@vueuse/metadata" "9.11.0"
+    "@vueuse/shared" "9.11.0"
+    vue-demi "*"
+
+"@vueuse/core@^9.10.0":
   version "9.10.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.10.0.tgz#2ef6e55ca773c5b2db1e3f13b8292af96dd32214"
   integrity sha512-CxMewME07qeuzuT/AOIQGv0EhhDoojniqU6pC3F8m5VC76L47UT18DcX88kWlP3I7d3qMJ4u/PD8iSRsy3bmNA==
@@ -1387,14 +1397,19 @@
   resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.10.0.tgz#1a5eb94ca755bd8e666505f47da7d88969cffdc7"
   integrity sha512-G5VZhgTCapzU9rv0Iq2HBrVOSGzOKb+OE668NxhXNcTjUjwYxULkEhAw70FtRLMZc+hxcFAzDZlKYA0xcwNMuw==
 
-"@vueuse/nuxt@^9.10.0":
-  version "9.10.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-9.10.0.tgz#bcd44131a6c5ad9436490a2eeb827147b4fbb59d"
-  integrity sha512-Re63RiUzsEbYGGrES+2YY3Elqblu0XVIVogBJydLBgK4sINDbfnqX0MHDpBuV8MC2SZ/3ojQPMOaJdYIIidJeg==
+"@vueuse/metadata@9.11.0":
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-9.11.0.tgz#07133eb3d78cbea376b6ad216950b4bbfafd041c"
+  integrity sha512-HhtG2SWkcfZBLbamHdvLn7jKOCFpw/ifXjVTd5ilFkj98WVUk/3UTQ03wF1XIkuhSO4+b45hD2lfG9/GdKCF7w==
+
+"@vueuse/nuxt@^9.11.0":
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/nuxt/-/nuxt-9.11.0.tgz#6cfcae08b65a9b751b6b978ddf27aaa50f8c7d6f"
+  integrity sha512-gG6Zv85/2ra64elUa4jQGxOKL/rYfGxpJ90XYwOCGEfFaWGyU2PswO3dj8o0IFZHyv592LalAPBuQ/qIb+mfZw==
   dependencies:
     "@nuxt/kit" "^3.0.0"
-    "@vueuse/core" "9.10.0"
-    "@vueuse/metadata" "9.10.0"
+    "@vueuse/core" "9.11.0"
+    "@vueuse/metadata" "9.11.0"
     local-pkg "^0.4.2"
     vue-demi "*"
 
@@ -1402,6 +1417,13 @@
   version "9.10.0"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.10.0.tgz#49874a0f9955d28689b3133de660367c63dbc030"
   integrity sha512-vakHJ2ZRklAzqmcVBL38RS7BxdBA4+5poG9NsSyqJxrt9kz0zX3P5CXMy0Hm6LFbZXUgvKdqAS3pUH1zX/5qTQ==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@9.11.0":
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-9.11.0.tgz#8cf7c64789040e90d0cb5c8ac73cc9d252f7306c"
+  integrity sha512-8lO7wD5abYxupKy2KynH1pSgP715ky6iCrWYb8aX2AuAVi9uHXj7qE1dw6BnmArSaLHci4x9iuzWPCpAzUkC/A==
   dependencies:
     vue-demi "*"
 
@@ -4588,7 +4610,7 @@ nuxt-component-meta@^0.4.2:
     typescript "^4.9.4"
     vue-component-meta "^1.0.18"
 
-nuxt-config-schema@^0.4.0:
+nuxt-config-schema@^0.4.0, nuxt-config-schema@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/nuxt-config-schema/-/nuxt-config-schema-0.4.2.tgz#2046920d7db595f4763d68b96a07a706040d4e09"
   integrity sha512-Bshm9gPNwFwvjOXJs5vwmRZAEHrJYzLY3hru++nSedjVbAnoAj9pue3Q+Fuhp/y2gHZvRRXYDOVurlC5IQ5Uzg==
@@ -4600,13 +4622,14 @@ nuxt-config-schema@^0.4.0:
     pathe "^1.0.0"
     untyped "^1.2.2"
 
-nuxt-icon@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.1.8.tgz#9df26856bf5ff05685989f95bbbe52fe5ee7887a"
-  integrity sha512-oPFlLOZCy80MN+hf49+mBkOIHWVF3sOqZREQZw3qD0N6wGlR15QeRQtKQC8qGeQcc+xvpLQm0GvrdJ8FxFOPYg==
+nuxt-icon@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.2.5.tgz#76594cf29d953a7218c2b97d63410e6b4ac9c3ad"
+  integrity sha512-GCdWlunR6436vsM9mUmwtFrUpe/qRBaaDueixB4h+rAHzvyL0TL/dQYIdpRCoudaRuC6wFvxbo763EA4usdIog==
   dependencies:
-    "@iconify/vue" "^4.0.1"
+    "@iconify/vue" "^4.0.2"
     "@nuxt/kit" "^3.0.0"
+    nuxt-config-schema "^0.4.2"
 
 nuxt@v3.0.0:
   version "3.0.0"
